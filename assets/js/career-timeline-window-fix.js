@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded', function () { var t=document.querySelector('.career-timeline'); if(!t)return; function end(){if(window.matchMedia('(min-width: 768px)').matches)t.scrollLeft=t.scrollWidth-t.clientWidth;} window.addEventListener('load',end); window.addEventListener('resize',end); requestAnimationFrame(function(){requestAnimationFrame(end);}); });
