@@ -1,0 +1,136 @@
+&:after {
+  content: '';
+}
+
+.modal-dialog.modal-xl {
+}
+
+.modal-body.concept {
+  background: black;
+  border-radius: 0!important;
+  outline: 0!important;
+}
+
+div {
+}
+
+#w125_1 {
+  height: 100%;
+  background: url("../../assets/img/w125_1.webp") center / contain no-repeat;
+  animation: fadeInAnimation ease 6s;
+  -webkit-animation: fadeInAnimation 6s;
+  -moz-animation: fadeInAnimation 6s;
+  -ms-animation: fadeInAnimation 6s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+#w125_2 {
+  height: 100%;
+  background: url("../../assets/img/w124_2.webp") center / contain no-repeat;
+  animation: fadeInAnimation ease 6s;
+  -webkit-animation: fadeInAnimation 6s;
+  -moz-animation: fadeInAnimation 6s;
+  -ms-animation: fadeInAnimation 6s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+#w125_3 {
+  height: 100%;
+  background: url("../../assets/img/w125_03.jpeg") center / contain no-repeat;
+  animation: fadeInAnimation ease 6s;
+  -webkit-animation: fadeInAnimation 6s;
+  -moz-animation: fadeInAnimation 6s;
+  -ms-animation: fadeInAnimation 6s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+#w125_5 {
+  height: 100%;
+  background: url("../../assets/img/w124_5.webp") center / contain no-repeat;
+  animation: fadeInAnimation ease 6s;
+  -webkit-animation: fadeInAnimation 6s;
+  -moz-animation: fadeInAnimation 6s;
+  -ms-animation: fadeInAnimation 6s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+#w125_4 {
+  height: 100%;
+  background: url("../../assets/img/w125Website.webp") center / contain no-repeat;
+  animation: fadeInAnimation ease 6s;
+  -webkit-animation: fadeInAnimation 6s;
+  -moz-animation: fadeInAnimation 6s;
+  -ms-animation: fadeInAnimation 6s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.modal-header {
+  background: linear-gradient(to right, rgb(0,0,0), rgb(0,0,0), #002433);
+  /*background: black;*/
+  border: 0px solid;
+  outline: none;
+  border-radius: 0;
+}
+
+button:focus {
+  outline: none;
+  cursor: url("../../assets/img/cursorHoverCustom.png"), url("../../assets/img/cursorHoverCustom.png"), default;
+}
+
+.btn {
+  border-radius: 20px;
+  border: 2px solid #00ffff!important;
+  color: #ffffff!important;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .5s ease-in-out;
+  background-color: transparent;
+  padding-top: .2rem!important;
+  padding-bottom: .2rem!important;
+  font-size: 1rem;
+}
+
+.btn-check:active + .btn, .btn-check:checked + .btn, .btn.active, .btn.show, .btn:active {
+  color: var(--bs-btn-active-color);
+  background-color: var(--bs-cyan);
+  border-color: var(--bs-body-bg);
+}
+
+.btn:hover {
+  color: var(--bs-border-color-translucent);
+  background-color: var(--bs-border-color-translucent);
+  border-color: var(--bs-border-color-translucent);
+}
+
+.btn-close {
+  color: #ffffff!important;
+  background: transparent url("../../assets/img/close_icon.png") center/2em auto no-repeat;
+  width: 2em;
+  height: 2em;
+  padding: 0em!important;
+  cursor: url("../../assets/img/cursorHoverCustom.png"), url("../../assets/img/cursorHoverCustom.png"), default!important;
+}
+
+.modal-body {
+  background: linear-gradient(rgba(0,123,255,0), rgba(0,123,255,0)), url("../../assets/img/BGContact.png") center / cover;
+  border-radius: 0px 0px 5px 5px!important;
+  /*border: 2px solid #0a2348;*/
+  outline: 0!important;
+}
+
+.modal-content {
+  border: none;
+}
+
+* {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+

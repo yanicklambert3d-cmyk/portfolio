@@ -1,0 +1,71 @@
+.footer-basic {
+  padding: 40px 0;
+  background-color: #0e0f11;
+  color: #4b4c4d;
+}
+
+.footer-basic ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.footer-basic li {
+  padding: 0 10px;
+}
+
+.footer-basic ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footer-basic ul a:hover {
+  color: rgb(255,107,0);
+  opacity: 1;
+  cursor: url("../../assets/img/cursorHoverCustom.png"), url("../../assets/img/cursorHoverCustom.png"), default;
+}
+
+.footer-basic .social {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.footer-basic .social > a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin: 0 8px;
+  color: #ffffff;
+  opacity: 0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity: 0.9;
+  color: rgb(255,138,0);
+  opacity: 1;
+  cursor: url("../../assets/img/cursorHoverCustom.png"), url("../../assets/img/cursorHoverCustom.png"), default;
+  -webkit-transition: -webkit-transform 0.5s ease;
+  -moz-transition: -moz-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  -webkit-transform: scale(1.10);
+  -moz-transform: scale(1.10);
+  transform: scale(1.10);
+}
+
+.footer-basic .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
+  margin-bottom: 0;
+}
+

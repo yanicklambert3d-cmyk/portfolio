@@ -1,0 +1,362 @@
+.som-build-map {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 8px 0 48px;
+  padding: 32px 24px;
+  background: linear-gradient(135deg,#06172c,#09121d);
+  border: 1px solid rgba(0,209,255,.2);
+  border-radius: 24px;
+  color: #d8e2ef;
+}
+
+.som-build-map-header {
+  text-align: center;
+  margin: 0 auto 26px;
+  max-width: 960px;
+}
+
+.som-build-map-kicker {
+  font-size: 12px;
+  letter-spacing: .15em;
+  color: #75cabb;
+  margin: 0 0 10px;
+}
+
+.som-build-map-header h2 {
+  color: #00d1ff;
+  font-size: clamp(24px,2.5vw,36px);
+  font-weight: 700;
+  margin: 0 0 12px;
+}
+
+.som-build-map-header p {
+  line-height: 1.5;
+}
+
+.som-build-map-scroll {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.som-build-map-scroll svg {
+  min-width: 1000px;
+}
+
+.som-build-mobile {
+  display: none;
+}
+
+.som-build-runtime {
+  padding: 22px 12px 0;
+  border-top: 1px solid rgba(0,209,255,.2);
+}
+
+.som-build-runtime h3 {
+  font-size: 20px;
+  color: #e6f1fc;
+  margin: 0 0 22px;
+  text-align: center;
+}
+
+.som-build-service-grid {
+  display: grid;
+  grid-template-columns: repeat(3,minmax(0,1fr));
+  gap: 22px;
+}
+
+.som-build-service-grid article {
+  position: relative;
+  padding: 22px;
+  background: #0c2135;
+  border-radius: 12px;
+  border: 1px solid #264458;
+}
+
+.som-build-service-grid article:not(:last-child)::after {
+  content: "→";
+  position: absolute;
+  right: -19px;
+  top: 40%;
+  font-size: 24px;
+  color: #00d1ff;
+}
+
+.som-build-service-step {
+  font-size: 12px;
+  letter-spacing: .08em;
+  color: #78d5c2;
+}
+
+.som-build-service-grid h4 {
+  font-size: 23px;
+  color: #fff;
+  margin: 12px 0;
+}
+
+.som-build-service-grid p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0 0 14px;
+}
+
+.som-build-service-grid small {
+  display: inline-block;
+  color: #f1c578;
+  font-size: 13px;
+}
+
+.som-build-map-note {
+  font-size: 14px;
+  line-height: 1.6;
+  text-align: center;
+  color: #95a8bb;
+  margin: 22px 0 0;
+}
+
+@media (max-width:767.98px) {
+  .som-build-map-scroll {
+    display: none;
+  }
+}
+
+@media (max-width:767.98px) {
+  .som-build-mobile {
+    display: grid;
+    gap: 14px;
+  }
+}
+
+@media (max-width:767.98px) {
+  .som-build-mobile article {
+    background: #0c2135;
+    border: 1px solid #264458;
+    border-radius: 12px;
+    padding: 20px;
+  }
+}
+
+@media (max-width:767.98px) {
+  .som-build-mobile article > span {
+    color: #78d5c2;
+    font-size: 11px;
+    letter-spacing: .06em;
+  }
+}
+
+@media (max-width:767.98px) {
+  .som-build-mobile h3 {
+    color: #fff;
+    font-size: 21px;
+    margin: 12px 0;
+  }
+}
+
+@media (max-width:767.98px) {
+  .som-build-mobile ul {
+    margin: 0;
+    padding: 0 0 0 18px;
+    line-height: 1.65;
+    font-size: 15px;
+  }
+}
+
+@media (max-width:767.98px) {
+  .som-build-service-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+}
+
+@media (max-width:767.98px) {
+  .som-build-service-grid article::after {
+    display: none;
+  }
+}
+
+@media (max-width:767.98px) {
+  .som-build-map {
+    padding: 26px 16px;
+  }
+}
+
+.som-build-map {
+  background: #e0f2cf;
+  border: 1px solid #9fc681;
+  color: #31571e;
+  padding: 28px 22px;
+}
+
+.som-build-map-kicker {
+  color: #658d40;
+  font-size: 9px;
+}
+
+.som-build-map-header h2 {
+  color: #173d00;
+  font-size: 1.35rem;
+}
+
+.som-build-map-header p {
+  font-size: 11px;
+  color: #6a8854;
+}
+
+.som-build-map-scroll svg {
+  width: 1440px;
+  max-width: 100%;
+  min-width: 1000px;
+  margin: auto;
+}
+
+.som-build-runtime {
+  border-top: 1px solid #b2d295;
+  padding: 18px 8px 0;
+}
+
+.som-build-runtime h3 {
+  color: #31571e;
+  font-size: 13px;
+  margin: 0 0 18px;
+}
+
+.som-build-service-grid article {
+  background: #f0f8e8;
+  border: 1px solid #9abe7b;
+  padding: 18px;
+}
+
+.som-build-service-grid article:not(:last-child)::after {
+  color: #639835;
+  font-size: 18px;
+}
+
+.som-build-service-step {
+  color: #5b8838;
+  font-size: 9px;
+}
+
+.som-build-service-grid h4 {
+  color: #173d00;
+  font-size: 13px;
+  margin: 10px 0;
+}
+
+.som-build-service-grid p {
+  font-size: 10px;
+  color: #547040;
+  line-height: 1.6;
+}
+
+.som-build-service-grid small {
+  color: #5b8838;
+  font-size: 9px;
+}
+
+.som-build-map-note {
+  color: #65824c;
+  font-size: 9px;
+}
+
+@media (max-width:767.98px) {
+  .som-build-mobile article {
+    background: #f0f8e8;
+    border: 1px solid #9abe7b;
+  }
+}
+
+@media (max-width:767.98px) {
+  .som-build-mobile article > span {
+    color: #5b8838;
+    font-size: 9px;
+  }
+}
+
+@media (max-width:767.98px) {
+  .som-build-mobile h3 {
+    color: #173d00;
+    font-size: 13px;
+  }
+}
+
+@media (max-width:767.98px) {
+  .som-build-mobile ul {
+    color: #547040;
+    font-size: 11px;
+  }
+}
+
+.som-build-service-grid article {
+  padding-right: 110px;
+  min-height: 150px;
+}
+
+.som-build-service-grid .som-build-service-icon {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 72px;
+  height: 72px;
+  object-fit: contain;
+  display: block;
+}
+
+@media (max-width:767.98px) {
+  .som-build-service-grid article {
+    padding-right: 90px;
+  }
+}
+
+@media (max-width:767.98px) {
+  .som-build-service-grid .som-build-service-icon {
+    width: 54px;
+    height: 54px;
+    right: 18px;
+  }
+}
+
+.som-build-service-icon[alt="GitHub"] {
+  filter: brightness(0);
+}
+
+.som-build-runtime {
+  padding-bottom: 24px;
+}
+
+.som-build-service-grid {
+  margin-bottom: 12px;
+}
+
+.som-build-service-grid .som-build-service-icon {
+  width: 62px;
+  height: 62px;
+}
+
+@media (max-width:767.98px) {
+  .som-build-service-grid .som-build-service-icon {
+    width: 48px;
+    height: 48px;
+  }
+}
+
+@media (max-width:767.98px) {
+  .som-build-mobile article {
+    position: relative;
+  }
+}
+
+@media (max-width:767.98px) {
+  .som-build-mobile article > span, .som-build-mobile article > h3 {
+    padding-right: 40px;
+  }
+}
+
+.som-build-phase-icon {
+  position: absolute;
+  right: 16px;
+  top: 18px;
+  width: 26px;
+  height: 26px;
+}
+

@@ -1,0 +1,237 @@
+.toonest-build-map {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 0 48px;
+  padding: 28px 22px 40px;
+  border-radius: 24px;
+  background: linear-gradient(135deg,#10273d,#0a1a2b);
+  border: 1px solid rgba(67,217,237,.25);
+  color: #c5d5e4;
+}
+
+.toonest-build-map-header {
+  text-align: center;
+  margin: 0 auto 24px;
+  max-width: 1050px;
+}
+
+.toonest-build-kicker {
+  font-size: 9px;
+  color: #82cdbf;
+  letter-spacing: .15em;
+  margin: 0 0 10px;
+}
+
+.toonest-build-map-header h2 {
+  font-size: 1.35rem;
+  line-height: 1.35;
+  color: #b9eb9c;
+  font-weight: 700;
+  margin: 0;
+}
+
+.toonest-build-desktop {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.toonest-build-desktop svg {
+  width: 1440px;
+  max-width: 100%;
+  min-width: 1000px;
+  height: auto;
+  margin: auto;
+}
+
+.toonest-build-mobile {
+  display: none;
+}
+
+.toonest-build-workflow {
+  padding: 20px 8px 0;
+  border-top: 1px solid rgba(82,187,191,.3);
+}
+
+.toonest-build-workflow > h3 {
+  font-size: 13px;
+  color: #dce9ef;
+  text-align: center;
+  margin: 0 0 20px;
+}
+
+.toonest-build-workflow-grid {
+  display: grid;
+  grid-template-columns: repeat(4,minmax(0,1fr));
+  gap: 22px;
+}
+
+.toonest-build-workflow-grid article {
+  position: relative;
+  padding: 18px;
+  background: #152b43;
+  border: 1px solid #32546a;
+  border-radius: 12px;
+}
+
+.toonest-build-workflow-grid article:not(:last-child)::after {
+  content: "→";
+  position: absolute;
+  right: -19px;
+  top: 40%;
+  color: #8fdbc1;
+  font-size: 18px;
+}
+
+.toonest-build-workflow-grid article > span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  background: #244c51;
+  color: #d9ef4b;
+  font-size: 11px;
+  font-weight: 700;
+  margin: 0 0 12px;
+}
+
+.toonest-build-workflow-grid h4 {
+  font-size: 13px;
+  color: #e9f4ee;
+  margin: 0 0 10px;
+}
+
+.toonest-build-workflow-grid p {
+  font-size: 10px;
+  line-height: 1.6;
+  color: #b9cddc;
+  margin: 0;
+}
+
+@media (max-width:767.98px) {
+  .toonest-build-desktop {
+    display: none;
+  }
+}
+
+@media (max-width:767.98px) {
+  .toonest-build-mobile {
+    display: grid;
+    gap: 14px;
+    margin-bottom: 24px;
+  }
+}
+
+@media (max-width:767.98px) {
+  .toonest-build-mobile article {
+    background: #152b43;
+    border: 1px solid #32546a;
+    border-left: 3px solid var(--toonest-phase-color);
+    border-radius: 12px;
+    padding: 18px;
+  }
+}
+
+@media (max-width:767.98px) {
+  .toonest-build-mobile article > span {
+    color: var(--toonest-phase-color);
+    font-size: 9px;
+    letter-spacing: .05em;
+  }
+}
+
+@media (max-width:767.98px) {
+  .toonest-build-mobile h3 {
+    color: #f0f6fc;
+    font-size: 13px;
+    margin: 12px 0;
+  }
+}
+
+@media (max-width:767.98px) {
+  .toonest-build-mobile ul {
+    margin: 0;
+    padding: 0 0 0 18px;
+    font-size: 11px;
+    line-height: 1.65;
+  }
+}
+
+@media (max-width:767.98px) {
+  .toonest-build-workflow-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+}
+
+@media (max-width:767.98px) {
+  .toonest-build-workflow-grid article::after {
+    display: none;
+  }
+}
+
+@media (max-width:767.98px) {
+  .toonest-build-map {
+    padding: 24px 16px 32px;
+  }
+}
+
+.toonest-build-kicker, .toonest-build-map-header h2 {
+  color: #43d9ed;
+}
+
+@media (max-width:767.98px) {
+  .toonest-build-mobile article > span {
+    color: #43d9ed;
+  }
+}
+
+@media (max-width:767.98px) {
+  .toonest-build-mobile article {
+    position: relative;
+  }
+}
+
+@media (max-width:767.98px) {
+  .toonest-build-mobile article > span, .toonest-build-mobile article > h3 {
+    padding-right: 40px;
+  }
+}
+
+.toonest-build-phase-icon {
+  position: absolute;
+  right: 16px;
+  top: 18px;
+  width: 26px;
+  height: 26px;
+}
+
+.toonest-build-workflow-grid article > span {
+  color: #43d9ed;
+  background: #16415e;
+}
+
+.toonest-build-workflow-grid article:not(:last-child)::after {
+  color: #43d9ed;
+}
+
+.toonest-build-workflow {
+  padding-bottom: 26px;
+}
+
+.toonest-build-workflow-grid {
+  margin-bottom: 12px;
+}
+
+.toonest-build-map {
+  padding-bottom: 42px;
+}
+
+@media (max-width:767.98px) {
+  .toonest-build-map {
+    padding-bottom: 38px;
+  }
+}
+

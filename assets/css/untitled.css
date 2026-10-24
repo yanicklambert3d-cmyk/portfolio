@@ -1,0 +1,64 @@
+.seemorebutton {
+  width: 165px;
+  height: 40px;
+  color: #fff;
+  background-color: #000000;
+  border-color: #005cbf;
+  border-radius: 1rem;
+  border: 2px solid;
+  padding-left: 30px;
+  padding-right: 30px;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+.see-more-project {
+  height: 30px;
+  color: #fff!important;
+  background-color: #b35817;
+  border-radius: 1rem;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 34px;
+  padding-right: 34px;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+.see-more-project:hover {
+  background: rgb(255,122,0);
+  cursor: url("../../assets/img/cursorHoverCustom.png"), url("../../assets/img/cursorHoverCustom.png"), default;
+  -webkit-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
+}
+
+.see_more_div {
+  font-size: 15px;
+  width: 22%;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+.see_more_div:hover {
+  width: 25%;
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.icon.ion-ios-arrow-down.arrowSeeProject {
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.icon.ion-ios-arrow-down.arrowSeeProject:hover {
+  transform: translateY(10%);
+  text-shadow: 0 0 10px #ff8a00;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  color: rgb(255,122,0)!important;
+  cursor: url("../../assets/img/cursorHoverCustom.png"), url("../../assets/img/cursorHoverCustom.png"), default;
+}
+

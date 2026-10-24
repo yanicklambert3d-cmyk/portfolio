@@ -1,0 +1,77 @@
+body {
+  background: #0e0f11;
+  animation: fadeInAnimation ease 3s;
+  -webkit-animation: fadeInAnimation 3s;
+  -moz-animation: fadeInAnimation 3s;
+  -ms-animation: fadeInAnimation 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+#soia {
+  width: 100%;
+  height: 100vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-color: rgb(7,15,26);
+  background-image: url("BANNER SOIA1.png");
+}
+
+.navbar.navbar-light.navbar-expand-md {
+  /*background-color: rgba(0,0,0,0.74);*/
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #ccc;
+  margin-right: 40px;
+  font-weight: bold;
+}
+
+.navbar-light .navbar-brand {
+  width: 200px;
+  color: #ffa34f;
+  font-weight: 500;
+  font-family: perpetua;
+  font-size: 30px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: rgb(0,209,255);
+  text-shadow: 0 0 10px rgb(0,209,255);
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+  color: #ccc;
+}
+
+#title {
+  color: rgb(255,255,255);
+  margin-right: 270px;
+  font-size: 70px;
+  text-shadow: 8px 5px 8px rgba(0,0,0,0.41);
+}
+
+#subtitle {
+  color: #e6e6e6;
+  font-size: 40px;
+  margin-right: 200px;
+  text-shadow: 5px 5px 5px rgba(0,0,0,0.41);
+}
+
+#bannerName {
+  display: none;
+  margin-top: 15%;
+}
+
+#soiaLogo {
+  height: 60px;
+  transition: 0.3s;
+  background: url("../../assets/img/logoYani.gif") center / contain no-repeat;
+}
+
+.navbar-light .navbar-nav .nav-link:focus {
+  color: rgb(0,209,255);
+  font-weight: bold;
+}
+

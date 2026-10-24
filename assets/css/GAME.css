@@ -1,0 +1,600 @@
+.navbar_fade {
+  display: none;
+  background: linear-gradient(to right, #000216, rgba(6,7,39,0.8));
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+  width: 100%;
+  height: 76px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.navbar_light {
+  background-size: contain;
+  background-position: bottom;
+  background-image: url("../../assets/img/line_2.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 16px;
+  position: fixed;
+  top: 66px;
+  right: 0;
+  left: 0;
+  z-index: -1;
+}
+
+@media (min-width: 2560px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 100% !important;
+  }
+}
+
+.bs-icon {
+  --bs-icon-size: .75rem;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--bs-icon-size);
+  width: calc(var(--bs-icon-size) * 2);
+  height: calc(var(--bs-icon-size) * 2);
+  color: var(--bs-primary);
+}
+
+.bs-icon-md {
+  --bs-icon-size: 1.5rem;
+}
+
+.bs-icon.bs-icon-primary {
+  color: var(--bs-white);
+  background: var(--bs-primary);
+}
+
+.bs-icon.bs-icon-rounded {
+  border-radius: .5rem;
+}
+
+.footer-basic {
+  padding: 40px 0;
+  background-color: #0e0f11;
+  color: #4b4c4d;
+}
+
+.footer-basic .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
+  margin-bottom: 0;
+}
+
+* {
+  margin: 0;
+}
+
+.modal-header {
+  background: linear-gradient(to right, rgb(0,0,0), rgb(0,0,0), #002433);
+  /*background: black;*/
+  border: 0px solid;
+  outline: none;
+  border-radius: 0;
+}
+
+.topTabButn:Hover {
+  cursor: url("../../assets/img/cursorHoverCustom.png"), url("../../assets/img/cursorHoverCustom.png"), default;
+}
+
+button:focus {
+  outline: none;
+  cursor: url("../../assets/img/cursorHoverCustom.png"), url("../../assets/img/cursorHoverCustom.png"), default;
+}
+
+#home_banner {
+  display: block;
+}
+
+@media (min-width: 300px) {
+  #soiaLogo {
+    /*display: none;*/
+    background-position: left center!important;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50px!important;
+    background-image: url("../../assets/img/logo%20YL%20yanick%20lambert%203.png")!important;
+    transition: 0.3s;
+  }
+}
+
+@media (min-width: 992px) {
+  #soiaLogo {
+    display: block;
+  }
+}
+
+@media (min-width: 768px) {
+  #soiaLogo {
+    display: block;
+  }
+}
+
+.navbar-light .navbar-toggler {
+  color: rgba(255,255,255,0);
+  border-color: rgba(240,255,255,0);
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("../../assets/img/button_mobile.png");
+}
+
+@media (min-width: 768px) {
+  #soiaLogo {
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 60px;
+    background-image: url("../../assets/img/logoYani.gif")!important;
+    transition: 0.3s;
+  }
+}
+
+@media (min-width: 2560px) {
+  .container {
+    max-width: 2000px;
+  }
+}
+
+@media (min-width: 2560px) {
+  .col-md-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 300px) {
+  .navbar-nav.optionMobile {
+    font-size: small;
+    margin-top: 20px;
+    float: right;
+    width: 60%;
+    text-align: right;
+    background-color: rgba(0,0,0,0.9);
+    /*padding-left: 30px;*/
+  }
+}
+
+@media (min-width: 1200px) {
+  .navbar-nav.optionMobile {
+    background-color: transparent;
+  }
+}
+
+@media (min-width: 300px) {
+  .nav-item.optionAboutProj {
+    border-bottom: 1px solid;
+    border-image: linear-gradient(45deg, rgba(0,0,0,0), purple,var(--bs-cyan), var(--bs-cyan)) 1;
+  }
+}
+
+@media (min-width: 768px) {
+  .nav-item.optionAboutProj {
+    border-bottom: 1px solid rgba(255,138,0,0)!important;
+    border-image: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-nav.optionMobile {
+    width: auto;
+    margin-top: auto;
+    float: right;
+    text-align: right;
+    background-color: rgba(0,0,0,0);
+    padding-left: 0px;
+  }
+}
+
+@media (min-width: 300px) {
+  .nav-item.optionGallery {
+    border-bottom: 1px solid;
+    border-image: linear-gradient(45deg, rgba(0,0,0,0), purple,var(--bs-cyan), var(--bs-cyan)) 1;
+  }
+}
+
+@media (min-width: 768px) {
+  .nav-item.optionGallery {
+    border-bottom: 0px solid rgba(255,138,0,0);
+  }
+}
+
+@media (min-width: 300px) {
+  #soiaLogo:hover, #soiaLogo:active {
+    filter: hue-rotate(180deg);
+    background-position: left center!important;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50px!important;
+    /*background-image: url("../../assets/img/logo%20YL%20yanick%20lambert_orange.png")!important;*/
+    transition: 0.3s;
+  }
+}
+
+@media (min-width: 768px) {
+  #soiaLogo:hover {
+    background-image: url("../../assets/img/logoYani%20golden.png")!important;
+    transition: 0.3s;
+    cursor: url("../../assets/img/cursorHoverCustom.png"), url("../../assets/img/cursorHoverCustom.png"), default;
+  }
+}
+
+.navbar-light .navbar-toggler-icon:active {
+  background-image: url("../../assets/img/button_mobile.png");
+  opacity: 0.3;
+}
+
+@media (min-width: 2560px) {
+  .container {
+    max-width: 2560px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 100% !important;
+    font-size: medium!important;
+    font-weight: normal!important;
+  }
+}
+
+.btn {
+  border-radius: 20px;
+  border: 2px solid #00ffff!important;
+  color: #ffffff!important;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .5s ease-in-out;
+  background-color: transparent;
+  padding-top: .2rem!important;
+  padding-bottom: .2rem!important;
+  font-size: 1rem;
+}
+
+.btn-check:active + .btn, .btn-check:checked + .btn, .btn.active, .btn.show, .btn:active {
+  color: var(--bs-btn-active-color);
+  background-color: var(--bs-cyan);
+  border-color: var(--bs-body-bg);
+}
+
+.btn:hover {
+  color: var(--bs-border-color-translucent);
+  background-color: var(--bs-border-color-translucent);
+  border-color: var(--bs-border-color-translucent);
+}
+
+section {
+  padding-bottom: 0rem!important;
+}
+
+@media (min-width: 1400px) {
+  .container {
+    display: inline-flex!important;
+    font-size: medium!important;
+    font-weight: normal!important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    /*display: inline-flex!important;*/
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    min-width: 100%;
+    /*display: inline-flex!important;*/
+    /*font-size: medium!important;*/
+    /*font-weight: normal!important;*/
+    padding-right: 0!important;
+    width: 100%;
+    margin-right: 0!important;
+  }
+}
+
+@media (max-width: 300px) {
+  .container.d-inline-flex {
+    display: inline-block;
+  }
+}
+
+.btn-close {
+  color: #ffffff!important;
+  background: transparent url("../../assets/img/close_icon.png") center/2em auto no-repeat;
+  width: 2em;
+  height: 2em;
+  padding: 0em!important;
+  cursor: url("../../assets/img/cursorHoverCustom.png"), url("../../assets/img/cursorHoverCustom.png"), default!important;
+}
+
+.modal-body {
+  background: linear-gradient(rgba(0,123,255,0), rgba(0,123,255,0)), url("../../assets/img/BGContact.png") center / cover;
+  border-radius: 0px 0px 5px 5px!important;
+  /*border: 2px solid #0a2348;*/
+  outline: 0!important;
+}
+
+.form-control:focus {
+  background: #00141c;
+  border-color: rgba(7,225,255,0.44);
+  color: #ffffff;
+  outline: 0;
+  box-shadow: 0 0 0 .25rem #07d2ff29;
+}
+
+#contact {
+  background: rgba(8,13,24,0.52);
+}
+
+.contactRow {
+  width: 100%;
+  color: white;
+  margin: 0px;
+}
+
+.campoContacto {
+  background: #00141c;
+  border-color: rgba(7,225,255,0.44);
+  color: #ffffff;
+}
+
+.modal-content {
+  border: none;
+}
+
+.imageButton {
+  width: 100%;
+  height: 100%;
+}
+
+@media (min-width: 300px) {
+  .container {
+    font-size: small;
+    font-weight: lighter;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    padding: 0px!important;
+    margin: 0px!important;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    font-size: medium!important;
+    font-weight: normal!important;
+  }
+}
+
+@media (min-width: 1400px) {
+  .navbar-expand-md .navbar-toggler {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .navbar-expand-md .navbar-collapse {
+    display: block!important;
+    flex-basis: auto;
+  }
+}
+
+@media (min-width: 1400px) {
+  #unblocking {
+    background: url("../../assets/img/unblocking_00.webp") center / cover;
+    height: 500px;
+    width: 100%;
+    border: 0px!important;
+    margin-left: 7px !important;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .5s ease-in-out;
+    padding: 0!important;
+  }
+}
+
+@media (min-width: 1400px) {
+  #SOIA {
+    background: url("../../assets/img/SOIABANNER.webp") center / cover;
+    height: 500px;
+    width: 100%;
+    border: 0px!important;
+    margin-right: 7px !important;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .5s ease-in-out;
+    padding: 0!important;
+    margin-top: 0px;
+  }
+}
+
+@media (min-width: 1400px) {
+  #nexperience {
+    background: url("../../assets/img/nexperience_banner.webp") center / cover;
+    height: 500px;
+    width: 100%;
+    border: 0px!important;
+    margin-right: 7px !important;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .5s ease-in-out;
+    padding: 0!important;
+  }
+}
+
+@media (min-width: 1400px) {
+  #artwork {
+    background: url("../../assets/img/artworkBanner_LOW.webp") center / cover;
+    height: 500px;
+    width: 100%;
+    border: 0px!important;
+    margin-left: 7px !important;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .5s ease-in-out;
+    padding: 0!important;
+    margin-top: 0px;
+  }
+}
+
+.copyright {
+  width: 100%;
+  height: 40px;
+  /*position: absolute;*/
+  /*bottom: 0;*/
+  /*z-index: 9999;*/
+}
+
+#contact_area {
+  background: rgba(0,0,0,0);
+  /*top: -10px;*/
+  position: relative;
+  /*height: 50px;*/
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  /*padding-top: 10px!important;*/
+  /*margin-top: 20px!important;*/
+  /*margin-bottom: 25px!important;*/
+  z-index: 99999;
+}
+
+@media (min-width: 300px) {
+  #contact_area {
+    background: rgba(0,0,0,0);
+    /*top: 10px;*/
+    position: relative;
+    /*height: 50px;*/
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    /*padding-top: 10px!important;*/
+    /*margin-top: 20px!important;*/
+    /*margin-bottom: 25px!important;*/
+    z-index: 99999;
+  }
+}
+
+@media (min-width: 1400px) {
+  #contact_area {
+    background: rgba(0,0,0,0);
+    /*top: -10px;*/
+    position: relative;
+    /*height: 50px;*/
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    /*padding-top: 10px!important;*/
+    /*margin-top: 20px!important;*/
+    /*margin-bottom: 25px!important;*/
+    z-index: 99999;
+  }
+}
+
+.cd-top {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  bottom: 40px;
+  right: 10px;
+  /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);*/
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  background: url("../../assets/img//arrowTop.png") center / contain no-repeat;
+  /*border: 2px solid #00ffff;*/
+  /*border-radius: 50px;*/
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+  -moz-transition: opacity .3s 0s, visibility 0s .3s;
+  transition: opacity .3s 0s, visibility 0s .3s;
+  /*z-index: 9999;*/
+}
+
+@media only screen and (min-width: 768px) {
+  .cd-top {
+    right: 20px;
+    bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .cd-top {
+    height: 60px;
+    width: 60px;
+    right: 30px;
+    bottom: 30px;
+  }
+}
+
+.navbar.navbar-light.navbar-expand-md {
+  /*background-color: rgba(0,0,0,0.74);*/
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #ccc;
+  margin-right: 40px;
+  font-weight: bold;
+}
+
+.navbar-light .navbar-brand {
+  width: 200px;
+  color: #ffa34f;
+  font-weight: 500;
+  font-family: perpetua;
+  font-size: 30px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: rgb(0,209,255);
+  text-shadow: 0 0 10px rgb(0,209,255);
+}
+
+#soiaLogo {
+  height: 60px;
+  transition: 0.3s;
+  background: url("../../assets/img/logoYani.gif") center / contain no-repeat;
+}
+
+.navbar-light .navbar-nav .nav-link:focus {
+  color: rgb(0,209,255);
+  font-weight: bold;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-weight: bold;
+  margin: 0;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  margin: 20px 0 30px;
+}
+
+a {
+  color: #333;
+  font-size: 14px;
+  text-decoration: none;
+  margin: 15px 0;
+}
+
