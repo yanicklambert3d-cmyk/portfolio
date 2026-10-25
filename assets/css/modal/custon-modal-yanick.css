@@ -501,7 +501,7 @@ button:focus {
   #unblockingBannerHome {
     height: auto;
     cursor: url("../../../assets/img/cursorBlue.png"), url("../../../assets/img/cursorBlue.png"), default;
-    content: url("unblockingBanner_mobile.png");
+    content: url("../../img/unblockingBanner_mobile.png");
     /*background-size: cover;*/
   }
 }
@@ -534,7 +534,7 @@ button:focus {
   #unblockingBannerHome {
     height: auto;
     cursor: url("../../../assets/img/cursorBlue.png"), url("../../../assets/img/cursorBlue.png"), default;
-    content: url("conceptCar Yani_banner.jpg");
+    content: url("../../img/conceptCar%20Yani_banner.jpg");
   }
 }
 
