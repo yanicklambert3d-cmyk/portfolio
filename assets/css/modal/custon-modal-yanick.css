@@ -10792,3 +10792,7 @@ div {
   }
 }
 
+
+/* CV version controls */
+.cv-modal-toolbar { flex-wrap: wrap; }
+.cv-modal-toolbar #cv-type-xr, .cv-modal-toolbar #cv-type-ux { font-size: 14px; }
