@@ -8558,7 +8558,7 @@ div {
 
 .museum-study__title {
   margin: 0;
-  color: #00d1ff;
+  color: #2fffd0;
   font-size: 1.35rem;
   font-weight: 700;
 }
@@ -8577,14 +8577,14 @@ div {
   gap: 18px;
   padding: 16px 20px;
   margin-bottom: 20px;
-  border: 1px solid rgba(0,209,255,.34);
+  border: 1px solid rgba(47,255,208,.34);
   border-radius: 10px;
-  background: linear-gradient(100deg,rgba(0,209,255,.12),rgba(1,17,39,.72));
+  background: linear-gradient(100deg,rgba(47,255,208,.12),rgba(0,42,36,.72));
 }
 
 .museum-study__question span {
   flex: 0 0 auto;
-  color: #00d1ff;
+  color: #2fffd0;
   font-size: .7rem;
   font-weight: 700;
   letter-spacing: .11em;
@@ -8611,7 +8611,7 @@ div {
   right: 3%;
   top: 28px;
   height: 2px;
-  background: linear-gradient(90deg,rgba(0,209,255,.25),#00d1ff,rgba(0,209,255,.25));
+  background: linear-gradient(90deg,rgba(47,255,208,.25),#2fffd0,rgba(47,255,208,.25));
   z-index: 0;
 }
 
@@ -8741,9 +8741,9 @@ div {
 .museum-study__outcomes blockquote {
   margin: 0;
   padding: 14px 18px;
-  border-left: 2px solid #00d1ff;
+  border-left: 2px solid #2fffd0;
   border-radius: 0 8px 8px 0;
-  background: rgba(0,209,255,.06);
+  background: rgba(47,255,208,.06);
   color: rgba(240,246,252,.86);
   font-size: .8rem;
   font-style: italic;
@@ -8752,7 +8752,7 @@ div {
 .museum-study__outcomes span {
   display: block;
   margin-bottom: 5px;
-  color: #00d1ff;
+  color: #2fffd0;
   font-size: .64rem;
   font-style: normal;
   font-weight: 700;
@@ -8855,9 +8855,9 @@ div {
   position: relative;
   min-width: 0;
   padding: 42px 13px 16px;
-  border: 1px solid rgba(0,209,255,.25);
+  border: 1px solid rgba(47,255,208,.25);
   border-radius: 9px;
-  background: linear-gradient(150deg,rgba(3,25,52,.94),rgba(7,15,29,.96));
+  background: linear-gradient(150deg,rgba(0,47,42,.94),rgba(0,36,32,.96));
   z-index: 2;
 }
 
@@ -8868,8 +8868,8 @@ div {
   right: -13px;
   width: 13px;
   height: 2px;
-  background: #00d1ff;
-  box-shadow: 8px -3px 0 -2px #00d1ff;
+  background: #2fffd0;
+  box-shadow: 8px -3px 0 -2px #2fffd0;
   z-index: 3;
 }
 
@@ -8878,7 +8878,7 @@ div {
   flex-direction: column;
   justify-content: center;
   padding: 20px 16px;
-  background: linear-gradient(135deg,rgba(0,209,255,.16),rgba(2,19,42,.94));
+  background: linear-gradient(135deg,rgba(47,255,208,.16),rgba(2,19,42,.94));
 }
 
 .museum-study--approved .museum-node--question h3 {
@@ -8894,7 +8894,7 @@ div {
   position: absolute;
   top: 13px;
   left: 13px;
-  color: rgba(0,209,255,.68);
+  color: rgba(47,255,208,.68);
   font-size: .62rem;
   font-weight: 700;
   letter-spacing: .1em;
@@ -8907,7 +8907,7 @@ div {
 
 .museum-study--approved .museum-node h3 {
   margin: 0 0 12px;
-  color: #00d1ff;
+  color: #2fffd0;
   font-size: .9rem;
   font-weight: 700;
 }
@@ -8949,15 +8949,15 @@ div {
 
 .museum-study--approved .museum-audience {
   padding: 10px;
-  border: 1px solid rgba(0,209,255,.12);
+  border: 1px solid rgba(47,255,208,.12);
   border-radius: 7px;
-  background: rgba(0,209,255,.035);
+  background: rgba(47,255,208,.035);
 }
 
 .museum-study--approved .museum-audience + .museum-audience {
   margin-top: 0;
   padding-top: 10px;
-  border-top: 1px solid rgba(0,209,255,.12);
+  border-top: 1px solid rgba(47,255,208,.12);
 }
 
 .museum-study--approved .museum-audience dl {
@@ -8966,7 +8966,7 @@ div {
 
 .museum-study--approved .museum-audience dt {
   margin-top: 6px;
-  color: #00d1ff;
+  color: #2fffd0;
   font-size: .6rem;
   letter-spacing: .08em;
   text-transform: uppercase;
@@ -8979,9 +8979,9 @@ div {
 .museum-study--approved .museum-vision {
   position: relative;
   padding: 13px 14px;
-  border-left: 2px solid #00d1ff;
+  border-left: 2px solid #2fffd0;
   border-radius: 0 8px 8px 0;
-  background: rgba(0,209,255,.06);
+  background: rgba(47,255,208,.06);
   color: rgba(240,246,252,.84);
   font-size: .72rem;
   font-style: italic;
@@ -8995,13 +8995,13 @@ div {
   left: 50%;
   width: 2px;
   height: 15px;
-  background: rgba(0,209,255,.55);
+  background: rgba(47,255,208,.55);
 }
 
 .museum-study--approved .museum-vision span {
   display: block;
   margin-bottom: 4px;
-  color: #00d1ff;
+  color: #2fffd0;
   font-size: .6rem;
   font-style: normal;
   font-weight: 700;
@@ -9029,16 +9029,16 @@ div {
   position: relative;
   min-height: 42px;
   margin-top: 2px;
-  border-bottom: 1px dashed rgba(0,209,255,.48);
-  border-left: 1px dashed rgba(0,209,255,.48);
-  border-right: 1px dashed rgba(0,209,255,.48);
+  border-bottom: 1px dashed rgba(47,255,208,.48);
+  border-left: 1px dashed rgba(47,255,208,.48);
+  border-right: 1px dashed rgba(47,255,208,.48);
 }
 
 .museum-study--approved .museum-feedback::before, .museum-study--approved .museum-feedback::after {
   content: "←";
   position: absolute;
   bottom: -8px;
-  color: #00d1ff;
+  color: #2fffd0;
   font-size: 1rem;
   line-height: 1;
 }
@@ -9054,7 +9054,7 @@ div {
 .museum-study--approved .museum-feedback span {
   align-self: end;
   padding: 0 8px 7px;
-  color: rgba(0,209,255,.68);
+  color: rgba(47,255,208,.68);
   font-size: .6rem;
   letter-spacing: .08em;
   text-transform: uppercase;
@@ -9163,7 +9163,7 @@ div {
   position: relative;
   overflow-x: auto;
   overflow-y: hidden;
-  border: 1px solid rgba(0,209,255,.18);
+  border: 1px solid rgba(47,255,208,.18);
   border-radius: 10px;
   background: linear-gradient(110deg,rgba(0,21,53,.68),rgba(6,12,24,.42));
   scrollbar-color: #00a9d4 rgba(4,18,37,.75);
@@ -9187,14 +9187,14 @@ div {
 
 .museum-study--diagram .museum-link {
   fill: none;
-  stroke: #00d1ff;
+  stroke: #2fffd0;
   stroke-width: 2;
   marker-end: url(#museum-arrow);
 }
 
 .museum-study--diagram .museum-note-link {
   fill: none;
-  stroke: rgba(0,209,255,.58);
+  stroke: rgba(47,255,208,.58);
   stroke-width: 1.5;
   stroke-dasharray: 4 4;
   marker-end: url(#museum-arrow);
@@ -9202,14 +9202,14 @@ div {
 
 .museum-study--diagram .museum-refine {
   fill: none;
-  stroke: rgba(0,209,255,.58);
+  stroke: rgba(47,255,208,.58);
   stroke-width: 1.5;
   stroke-dasharray: 7 5;
   marker-end: url(#museum-arrow);
 }
 
 .museum-study--diagram .museum-refine-label {
-  fill: rgba(0,209,255,.7);
+  fill: rgba(47,255,208,.7);
   font-size: 10px;
   font-family: inherit;
   letter-spacing: 1px;
@@ -9220,7 +9220,7 @@ div {
   position: absolute;
   box-sizing: border-box;
   padding: 18px 16px;
-  border: 1px solid rgba(0,209,255,.32);
+  border: 1px solid rgba(47,255,208,.32);
   border-radius: 8px;
   background: #061427;
   box-shadow: 0 8px 24px rgba(0,0,0,.18);
@@ -9245,7 +9245,7 @@ div {
 .museum-study--diagram .museum-card strong {
   display: block;
   margin-top: 7px;
-  color: #00d1ff;
+  color: #2fffd0;
   font-size: .59rem;
   letter-spacing: .08em;
   text-transform: uppercase;
@@ -9254,7 +9254,7 @@ div {
 .museum-study--diagram .museum-card__step, .museum-study--diagram .museum-card--question span {
   display: block;
   margin-bottom: 10px;
-  color: #00d1ff;
+  color: #2fffd0;
   font-size: .65rem;
   font-weight: 700;
   letter-spacing: .09em;
@@ -9269,7 +9269,7 @@ div {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: linear-gradient(135deg,rgba(0,209,255,.13),#061427);
+  background: linear-gradient(135deg,rgba(47,255,208,.13),#061427);
 }
 
 .museum-study--diagram .museum-card--question h3 {
@@ -9293,9 +9293,9 @@ div {
   width: 320px;
   height: 375px;
   padding: 44px 12px 12px;
-  border: 1px solid rgba(0,209,255,.52);
+  border: 1px solid rgba(47,255,208,.52);
   border-radius: 10px;
-  background: rgba(0,209,255,.035);
+  background: rgba(47,255,208,.035);
   z-index: 2;
 }
 
@@ -9304,7 +9304,7 @@ div {
   top: 14px;
   left: 16px;
   margin: 0;
-  color: #00d1ff;
+  color: #2fffd0;
   font-size: .73rem;
   font-weight: 700;
   letter-spacing: .08em;
@@ -9360,9 +9360,9 @@ div {
   width: 150px;
   min-height: 105px;
   padding: 13px;
-  border: 1px dashed rgba(0,209,255,.35);
+  border: 1px dashed rgba(47,255,208,.35);
   border-radius: 8px;
-  background: rgba(0,209,255,.055);
+  background: rgba(47,255,208,.055);
   color: rgba(230,238,247,.76);
   font-size: .68rem;
   line-height: 1.45;
@@ -9373,7 +9373,7 @@ div {
 .museum-study--diagram .museum-note span {
   display: block;
   margin-bottom: 6px;
-  color: #00d1ff;
+  color: #2fffd0;
   font-size: .59rem;
   font-style: normal;
   font-weight: 700;
@@ -9396,15 +9396,15 @@ div {
 .museum-study--diagram .museum-phase--question {
   display: block;
   padding: 16px;
-  border: 1px solid rgba(0,209,255,.34);
+  border: 1px solid rgba(47,255,208,.34);
   border-radius: 9px;
-  background: linear-gradient(100deg,rgba(0,209,255,.12),rgba(1,17,39,.72));
+  background: linear-gradient(100deg,rgba(47,255,208,.12),rgba(0,42,36,.72));
 }
 
 .museum-study--diagram .museum-phase--question span {
   display: block;
   margin-bottom: 6px;
-  color: #00d1ff;
+  color: #2fffd0;
   font-size: .65rem;
   font-weight: 700;
   letter-spacing: .09em;
@@ -9419,9 +9419,9 @@ div {
 
 .museum-study--diagram .museum-note-mobile {
   padding: 14px;
-  border-left: 2px solid #00d1ff;
+  border-left: 2px solid #2fffd0;
   border-radius: 0 8px 8px 0;
-  background: rgba(0,209,255,.06);
+  background: rgba(47,255,208,.06);
   color: rgba(240,246,252,.84);
   font-size: .76rem;
   font-style: italic;
@@ -9430,7 +9430,7 @@ div {
 .museum-study--diagram .museum-note-mobile span {
   display: block;
   margin-bottom: 5px;
-  color: #00d1ff;
+  color: #2fffd0;
   font-size: .62rem;
   font-style: normal;
   font-weight: 700;
@@ -9456,9 +9456,9 @@ div {
   .museum-study--diagram .museum-phase {
     position: relative;
     padding: 42px 14px 17px;
-    border: 1px solid rgba(0,209,255,.2);
+    border: 1px solid rgba(47,255,208,.2);
     border-radius: 9px;
-    background: linear-gradient(150deg,rgba(3,25,52,.9),rgba(7,15,29,.92));
+    background: linear-gradient(150deg,rgba(0,47,42,.9),rgba(0,36,32,.92));
   }
 }
 
@@ -9471,9 +9471,9 @@ div {
 .museum-study--mermaid-html .mh-diagram {
   overflow-x: auto;
   overflow-y: hidden;
-  border: 1px solid rgba(0,209,255,.18);
+  border: 1px solid rgba(47,255,208,.18);
   border-radius: 10px;
-  background: rgba(0,12,29,.32);
+  background: rgba(0,45,41,.32);
 }
 
 .museum-study--mermaid-html .mh-canvas {
@@ -9488,16 +9488,16 @@ div {
   position: absolute;
   box-sizing: border-box;
   padding: 15px;
-  border: 1px solid rgba(0,209,255,.38);
+  border: 1px solid rgba(47,255,208,.38);
   border-radius: 6px;
-  background: #071526;
+  background: #002b27;
   color: rgba(214,225,238,.76);
   z-index: 3;
 }
 
 .museum-study--mermaid-html .mh-card h3, .museum-study--mermaid-html .mh-requirements > h3 {
   margin: 0 0 14px;
-  color: #00d1ff;
+  color: #2fffd0;
   font-size: 11px;
   font-weight: 700;
   letter-spacing: .05em;
@@ -9521,7 +9521,7 @@ div {
 .museum-study--mermaid-html .mh-card strong {
   display: block;
   margin: 8px 0 3px;
-  color: #00d1ff;
+  color: #2fffd0;
   font-size: 9px;
   letter-spacing: .06em;
   text-transform: uppercase;
@@ -9569,9 +9569,9 @@ div {
   width: 203px;
   height: 639px;
   padding: 32px 10px 10px;
-  border: 1px solid rgba(0,209,255,.55);
+  border: 1px solid rgba(47,255,208,.55);
   border-radius: 7px;
-  background: rgba(0,209,255,.055);
+  background: rgba(47,255,208,.055);
   z-index: 2;
 }
 
@@ -9626,7 +9626,7 @@ div {
 .museum-study--mermaid-html .mh-arrow {
   position: absolute;
   height: 1px;
-  background: #00d1ff;
+  background: #2fffd0;
   z-index: 1;
 }
 
@@ -9637,7 +9637,7 @@ div {
   top: -4px;
   border-top: 4px solid transparent;
   border-bottom: 4px solid transparent;
-  border-left: 7px solid #00d1ff;
+  border-left: 7px solid #2fffd0;
 }
 
 .museum-study--mermaid-html .mh-a1 {
@@ -9683,7 +9683,7 @@ div {
 .museum-study--mermaid-html .mh-note-arrow {
   position: absolute;
   height: 1px;
-  border-top: 1px dashed rgba(0,209,255,.65);
+  border-top: 1px dashed rgba(47,255,208,.65);
   z-index: 1;
 }
 
@@ -9705,9 +9705,9 @@ div {
 
 .museum-study--mermaid-html .mh-loop {
   position: absolute;
-  border-left: 1px dashed rgba(0,209,255,.65);
-  border-bottom: 1px dashed rgba(0,209,255,.65);
-  border-right: 1px dashed rgba(0,209,255,.65);
+  border-left: 1px dashed rgba(47,255,208,.65);
+  border-bottom: 1px dashed rgba(47,255,208,.65);
+  border-right: 1px dashed rgba(47,255,208,.65);
   z-index: 1;
 }
 
@@ -9718,14 +9718,14 @@ div {
   top: -1px;
   border-left: 4px solid transparent;
   border-right: 4px solid transparent;
-  border-bottom: 7px solid #00d1ff;
+  border-bottom: 7px solid #2fffd0;
 }
 
 .museum-study--mermaid-html .mh-loop span {
   position: absolute;
   left: 12px;
   bottom: 5px;
-  color: rgba(0,209,255,.75);
+  color: rgba(47,255,208,.75);
   font-size: 9px;
   letter-spacing: .06em;
   text-transform: uppercase;
@@ -9768,9 +9768,9 @@ div {
   .museum-study--mermaid-html .museum-phase {
     position: relative;
     padding: 18px 14px;
-    border: 1px solid rgba(0,209,255,.2);
+    border: 1px solid rgba(47,255,208,.2);
     border-radius: 9px;
-    background: linear-gradient(150deg,rgba(3,25,52,.9),rgba(7,15,29,.92));
+    background: linear-gradient(150deg,rgba(0,47,42,.9),rgba(0,36,32,.92));
   }
 }
 
@@ -9787,7 +9787,7 @@ div {
 .museum-study--mermaid-html .mh-q h4 {
   margin-top: 4px;
   margin-bottom: 6px;
-  color: #00d1ff;
+  color: #2fffd0;
   font-size: 9px;
   letter-spacing: .06em;
 }
@@ -9803,7 +9803,7 @@ div {
 .museum-study--mermaid-html .mh-design-type {
   display: block;
   margin: -3px 0 9px;
-  color: #00d1ff;
+  color: #2fffd0;
   font-size: 9px;
   font-weight: 600;
   letter-spacing: .06em;
@@ -9959,7 +9959,7 @@ div {
   top: auto;
   bottom: -4px;
   border-left: 0;
-  border-right: 7px solid #00d1ff;
+  border-right: 7px solid #2fffd0;
   border-top: 4px solid transparent;
   border-bottom: 4px solid transparent;
 }
@@ -10325,7 +10325,7 @@ div {
 
 .museum-study--mermaid-html .mh-evaluation strong {
   margin: 6px 0 3px;
-  color: #00d1ff;
+  color: #2fffd0;
   font-size: 9px;
   font-weight: 600;
   letter-spacing: .06em;
@@ -10796,3 +10796,13 @@ div {
 /* CV version controls */
 .cv-modal-toolbar { flex-wrap: wrap; }
 .cv-modal-toolbar #cv-type-xr, .cv-modal-toolbar #cv-type-ux { font-size: 14px; }
+
+/* SOM museum study green palette */
+.museum-study--mermaid-html {background: #002d29;}
+.museum-study--mermaid-html .museum-study__title {color: #2fffd0;}
+.museum-study--mermaid-html .mh-diagram {background: #002d29;}
+.museum-study--mermaid-html .mh-diagram {border-color: rgba(47,255,208,.2);}
+.museum-study--mermaid-html .mh-card {background: #002b27;}
+.museum-study--mermaid-html .mh-requirements {background: #003c3a;}
+.museum-study--mermaid-html .mh-requirements {border-color: rgba(47,255,208,.5);}
+.museum-study--mermaid-html .museum-phase {background: #002b27;}
